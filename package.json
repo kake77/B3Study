@@ -1,0 +1,26 @@
+{
+  "name": "b3study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mac": "./node_modules/.bin/electron .",
+    "win": ".\\node_modules\\.bin\\electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakeru200077/B3Study.git"
+  },
+  "author": "kakeru kato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakeru200077/B3Study/issues"
+  },
+  "homepage": "https://github.com/kakeru200077/B3Study#readme",
+  "devDependencies": {
+    "electron": "^21.2.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}

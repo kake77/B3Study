@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.noteItem {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid black;
+}
+
+#floatingButton {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background: darkcyan;
+    border-radius: 2rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}

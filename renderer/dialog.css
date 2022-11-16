@@ -1,0 +1,60 @@
+#DialogWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #0008;
+}
+
+.Dialog {
+    background-color: white;
+    border-radius: 1rem;
+    width: 60%;
+    position: absolute;
+}
+
+.DialogText {
+    margin: 2rem 2rem 0 2rem;
+}
+
+.AddedElementWrapper {
+    margin: 0 2rem 2rem 2rem;
+}
+
+.DialogInput {
+    display: block;
+    width: 100%;
+
+    border: thin solid;
+
+    border-radius: .6rem;
+    height: 3rem;
+    line-height: 2.5rem;
+    padding: 0 1rem;
+    margin: .6rem 0;
+}
+
+.DialogInput:focus {
+    border: medium solid darkcyan;
+    outline: 0;
+}
+
+.DialogButtonWrapper {
+    display: flex;
+}
+
+.DialogButton {
+    text-align: center;
+    flex: 1;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.DialogButton:last-child {
+    border-right: none;
+}
