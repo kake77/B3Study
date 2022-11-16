@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    document.getElementById("floatingButton").addEventListener("click", async () => {
+    document.getElementById("createNote").addEventListener("click", async () => {
         let dialog = new Dialog("新しいメモを作成", "キャンセル");
         let input = dialog.AddInput();
         dialog.AddButton("作成", async () => {
@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         dialog.Show();
 
+    });
+    document.getElementById("reloadNote").addEventListener("click", async () => {
+        ReloadNotes();
     });
 
     ReloadNotes();

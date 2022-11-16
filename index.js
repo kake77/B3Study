@@ -8,8 +8,8 @@ let mainWindow;
 const createWindow = () => {
     // メインウィンドウを作成します
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 800,
         webPreferences: {
             // プリロードスクリプトは、レンダラープロセスが読み込まれる前に実行され、
             // レンダラーのグローバル（window や document など）と Node.js 環境の両方にアクセスできます。
@@ -21,9 +21,6 @@ const createWindow = () => {
     // メインウィンドウに表示するURLを指定します
     // （今回はmain.jsと同じディレクトリのindex.html）
     mainWindow.loadFile("./renderer/index.html");
-
-    // デベロッパーツールの起動
-    mainWindow.webContents.openDevTools();
 
     // メインウィンドウが閉じられたときの処理
     mainWindow.on("closed", () => {

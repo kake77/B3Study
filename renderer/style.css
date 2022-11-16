@@ -9,7 +9,7 @@ body {
     border: 1px solid black;
 }
 
-#floatingButton {
+#createNote {
     height: 4rem;
     width: 4rem;
     line-height: 4rem;
@@ -21,4 +21,29 @@ body {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
+
+    font-weight: 1000;
+}
+
+#reloadNote {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background: darkcyan;
+    border-radius: 2rem;
+    position: fixed;
+    bottom: 8rem;
+    right: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.refreshImg {
+    width: 50%;
+    height: 50%;
 }
